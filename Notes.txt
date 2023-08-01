@@ -1,0 +1,193 @@
+https://meet.google.com/kbu-jggk-aic
+
+Nagraj
+	mon -thu =>mon -even 3
+	fri=>till 1pm
+	sat n sun=>till 9
+Akanksha
+	=>10max
+
+
+FullStack development
+-------------------------------
+FrontEnd +BackEnd
+
+html=>Hyper Text Markup Language
+css ==>Cascading Style Sheets
+Bootstrap=>Responsive Web Design(RWD)
+Javascript
+Reactjs
+
+Nodejs(expressjs)
+MongoDB
+
+
+Mern Stack==>MongoDb+expressjs+React+Node
+Mean Stack =>MongoDb+expressjs+Angular+Node
+
+==============================
+HTML5
+Hyper Text Markup Language
+
+commonds in html is called =>html tags
+html tags are 2 types
+	1) Opening Tag
+		ex: <title> 
+	2) Closing Tag
+		ex: </title>
+
+html files saves as '.html'
+html is 'not case sensitive'
+Element:
+=======
+	<title> sfdssdfsd </title>
+
+<br>  ==>break
+<hr> ==>horizontal ruler
+
+Heading tags:
+===========
+Headings are 6 types
+	<h1> </h1>  =>big heading
+	<h2> </h2>
+	.
+	.
+	<h6> </h6> =>small heading
+
+Paragraph tag:
+===========
+	<p> </p> ==>paragraph
+
+Attributes:
+=========
+Attributes provide additional information about elements · Attributes are always specified in the start tag 
+
+headings and paragraph attributes:
+	align="left/center/right"
+
+	<h1 align="center"> </h1>
+
+31st July:
+=======
+list items
+list items are 2 types
+	1) order list item
+		<ol> </ol>
+	2)unorder list item
+		<ul> </ul>
+
+
+inserting images:
+===============
+	<img src="pic.jpg/gif/png">
+	Attributes for img tag:
+		width
+		height
+		border
+		title
+		alt
+ex:
+	<img src="pic.jpg" width="300px" border="2px" title="title here" alt="Some description">
+
+Hyperlinks:
+===========
+	<a href="file.html"> link </a>
+	a==>anchor
+	href=>hyper reference
+
+
+Forms:
+======
+	<form> </form>
+	<input type="text/password/checkbox/radio/email/range/file/submit/reset">
+	
+	<select>
+	<option> </option>
+	</select>
+
+	<textarea> </textarea>
+
+1st August:
+========
+<table> </table>
+<tr> </tr> ==>table row
+<td> </td> ==>table data
+<th> </th> ==>table head
+
+Not finished....
+iframe
+divs
+html5 tags
+
+CSS3
+=====
+Cascading Style Sheets
+
+CSS is used for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.
+
+Advantages:
+CSS saves time − You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+
+Pages load faster − If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.
+
+Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+Superior styles to HTML − CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.
+
+Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.
+
+Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.
+
+Css can be applied to web pages in 3ways
+	1) Internal css
+	2) External css
+	3) Inline css
+
+
+	syntax:
+		selector{ 
+		    property:value;		
+			}
+	ex:
+		h1{
+		color:red;
+		}
+
+
+css properties:
+==========
+color:red;
+font-family:arial;
+font-size:1.4em;
+text-align:left/center/right;
+background-color:yellow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
