@@ -161,13 +161,55 @@ font-family:arial;
 font-size:1.4em;
 text-align:left/center/right;
 background-color:yellow;
+width:300px;
+height:300px;
+border:1px solid/dotted/dashed red;
 
+2nd Aug:
 
+border-left/right/top/bottom:10px solid red;
+list-style-type:none/circle/square;
+list-style-img:url(pic.jpg);
 
+background-image:url(pic.jpg);
+backgorund-repeat:no-repeat/repeat-x/repeat-y;
 
+margin:30px; ===>margin is a space outside of the element
+padding:30px; ===>padding is a space inside the element
 
+Selectors:
+==========
+	1)Tag / Element Selector
+		ex: h1{ }
+	2) class selector
+		ex: .abc{}
+	3) id selector
+		ex: #abc{}
+	4) pseudo selector
+		ex: a:hover{}
 
+text-decoration:none;
+3rd Aug:
+=======
+class selector:
+=========
+class selector is used to select all elements which belong to a particular class attribute. 
+In order to select the elements with a particular class, use the period (.) character specifying the class name ie., it will match the HTML element based on the contents of their class attribute.
 
+	.className{ }
+
+	<h1 class="className"> </h1>
+
+divisions:
+
+float:left/right;
+
+border-radius:30px;
+border-radius:30px 0px;
+border-radius:30px 0px 90px 10px;
+border-radius:50%;
+box-shadow:10px 10px 10px black;
+	
 
 
 
