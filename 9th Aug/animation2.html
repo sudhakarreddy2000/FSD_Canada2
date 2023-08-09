@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes demo {
+            0%{left:0px; top:0px}
+            25%{left:900px; top:0px}
+            50%{left:900px; top:400px}
+            75%{left:0px; top:400px}
+            100%{left:0px; top:0px}
+        }
+
+        #cir{
+            width:100px;
+            height:100px;
+            background-color: red;
+            border-radius:50%;
+            animation:demo 4s;
+            //animation-iteration-count: 2;
+            animation-iteration-count: infinite;
+            position:relative;
+        }
+  
+    </style>
+</head>
+<body>
+<div id="cir"> </div>
+</body>
+</html>

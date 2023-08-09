@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer_box{
+            width:250px;
+            height:300px;
+            margin:auto;
+            border:1px solid black;
+            position:relative;
+            cursor:pointer;
+            overflow:hidden;
+            
+        }
+        .inner_box{
+            width:100%;
+            padding:20px 0px;
+            background-color: red;
+            position:absolute;
+            bottom:-58px;
+            transition:all 1s;
+        }
+        #outer_box:hover .inner_box{
+            bottom:0px;
+           
+        }
+    </style>
+</head>
+<body>
+   <div id="outer_box">
+        <div class="inner_box">Title</div>
+</div>
+</body>
+</html>
