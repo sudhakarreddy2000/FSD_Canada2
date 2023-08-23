@@ -406,7 +406,20 @@ border-1  --- 5  =>thickness
 
 border-primary etc
 
+23rd Aug:
+=======
+table classes:
+==========
+table
+table-primary /secondary/danger.....
 
+Alert classes:
+==========
+alert
+alert-primary/secondary/success/warning...
+
+grid model:
+========
 
 
 
