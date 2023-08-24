@@ -420,6 +420,17 @@ alert-primary/secondary/success/warning...
 
 grid model:
 ========
+24th Aug:
+=======
+grid with all six break points
+card
+card and grid
+navbar
+
+
+
+
+
 
 
 
