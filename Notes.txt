@@ -427,7 +427,102 @@ card
 card and grid
 navbar
 
+25th Aug:
+======
+collapse class
+js functionalities:
+----------------------
+data-bs-toggle="collapse" 
+data-bs-target="#collapseExample"
 
+forms:
+======
+form-control
+col-auto
+
+carousel  ==>sliding images
+	carousel 
+	slide
+	carousel-inner
+	carousel-item
+
+
+28th Aug:
+=======
+bootstrap 
+
+font awesome
+
+29th Aug:
+==========
+Javascript
+--------------
+javascript is used for 'Client side' applications
+using javascript 
+	interactive website, 
+	dynamic websites and 
+	client side validations can be done
+
+JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+
+
+computers can understand only machine language, it will not understand english, telugu or any other language
+	i.e => binary code ==> 0 or 1
+	for example
+		a=>01100110
+Converting user language to machine language is possible with compiler or interpreter
+
+Compiling vs Interpreted Language:
+===========================
+What is Compiled Language?
+A compiled language is a programming language that is generally compiled and not interpreted. It is one where the program, once compiled, is expressed in the instructions of the target machine; this machine code is undecipherable by humans. Types of compiled language – C, C++, C#, CLEO, COBOL, etc. 
+
+What is Interpreted Language?
+An interpreted language is a programming language that is generally interpreted, without compiling a program into machine instructions. 
+It is one where the instructions are not directly executed by the target machine, but instead, read and executed by some other program. Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc. 
+
+javascript comes under interpreted language
+
+	SOURCE CODE   ==>INTERPRETER ==>OUTPUT
+
+=>javascript  is case sensitive
+	document ==.>valid
+	Document ==>invalid
+	DOCUMENT=>invlaid
+
+document.write()
+
+30th Aug
+=======
+using html tags and attributes in js
+<br>
+<hr color="red" size="12px">
+
+double quotes are not allowed inside double quotes
+single quotes are not allowed inside single quotes
+
+alert() ==>used to alert the user
+prompt() ==>used to take input value from user
+confirm() ==>used to display confirmation message
+
+Variables:
+========
+=>variables are contianers which are used to store the data
+=>Variable a symbolic name associated with a value and whose associated value may be changed.
+=>Variables are Containers for Storing Data
+	
+=>variables can be declared in javascript in 3 ways:
+	1) var keyword   	=> var fname
+	2) let keyword	=> let fname	
+	3) const keyword	=> const fname
+
+	let and const keywords are introduced in ES6(Ecma Script)
+
+	
+		var fname  		=>declaring a variable 
+		fname="Javascript"   	=>assigning a value to a variable
+
+	
 
 
 
