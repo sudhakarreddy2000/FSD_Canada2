@@ -539,6 +539,76 @@ document.getElementById():
 The getElementById() method is one of the most common methods in the HTML DOM. 
 It is used almost every time you want to read or edit an HTML element.
 
+7th Sept;
+=======
+<body>
+    <table border="2px" align="center">
+        <tr>
+            <td>Principle Amount</td>
+            <td>Rate of intrest</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td id="principle"></td>
+            <td id="interest"></td>
+            <td id="total"></td>
+        </tr>
+    </table>
+    <script>
+        let prn = prompt("Enter principle amount")
+        document.getElementById('principle').innerHTML = prn
+
+        let roi = prompt("Enter rate of intrest")
+document.getElementById('interest').innerHTML = (roi + "%")
+
+        let result = prn * roi / 100
+        document.getElementById('total').innerHTML = result
+
+
+    </script>
+</body>
+
+getElementById('pic').src
+
+Date() function : functions will execute on its own
+
+Date() methods: Methods requires support of an object
+
+getHours()
+getMinutes()
+getSeconds()
+
+getDate()
+getMonth()
+getFullYear()
+getDay()
+
+toLocaleTimeString()
+toLocaleDateString()
+
+
+if else condition:
+============
+if(condition){
+	statement
+}else{
+	statement
+}
+
+<=40 ===>Failed
+>40 ===> Passed
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
