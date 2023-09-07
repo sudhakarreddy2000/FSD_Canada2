@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <table border="2px" align="center">
+        <tr>
+            <td>Principle Amount</td>
+            <td>Rate of intrest</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td id="principle"></td>
+            <td id="interest"></td>
+            <td id="total"></td>
+        </tr>
+    </table>
+    <script>
+        let prn = prompt("Enter principle amount")
+        document.getElementById('principle').innerHTML = prn
+
+        let roi = prompt("Enter rate of intrest")
+document.getElementById('interest').innerHTML = (roi + "%")
+
+        let result = prn * roi / 100
+        document.getElementById('total').innerHTML = result
+
+
+    </script>
+</body>
+
+</html>
