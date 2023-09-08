@@ -598,6 +598,67 @@ if(condition){
 <=40 ===>Failed
 >40 ===> Passed
 
+8th Sept:
+=======
+uid=>javascript
+	authorised user
+
+Operators:
+========
+1) Assignment operator
+	=
+2) Arithmatic operator
+	+,-,/,*,%
+3) Conditional operators
+	<=,>=,!=,==,===
+	a=10
+	a==10
+	a===10
+4) Logical operators
+	&&(and), || (or)
+
+
+if else if:
+=======
+	if(condition){
+
+	}else if(condition){
+
+	}else if(condition){
+
+	}
+
+<=40 ===>Failed
+>40-<=50==>Passed
+>50-<=60==>Second 
+>60-<=70==>First
+>70-<=100==>distinction
+
+switch..case:
+=========
+it is alternative to if else if condition
+
+syntax:
+	switch(condtion){
+	case :
+	statement;
+	break
+
+	case :
+	statement;
+	break
+
+	case :
+	statement;
+	break
+
+	default
+	statement
+	}
+
+
+
+
 
 
 
