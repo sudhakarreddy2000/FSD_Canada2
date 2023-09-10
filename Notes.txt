@@ -657,14 +657,84 @@ syntax:
 	}
 
 
+10th Sept:
+========
+<body>
+    <table border="2px" align="center">
+        <tr>
+            <td>Date (DD/MM/YYYY)</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Eligibility</td>
+        </tr>
+        <tr align="center">
+            <td id="txt"></td>
+            <td id="txt1"></td>
+            <td id="txt2"></td>
+            <td id="txt3"></td>
+        </tr>
+    </table>
+<script>
+        // date method
+        let obj = new Date()
+        let date = obj.getDate()
+        let month = obj.getMonth() + 1
+        let year = obj.getFullYear()
+
+        document.getElementById('txt').innerHTML = date + "/" + month + "/" + year
+
+        //Name Prompt
+        let name = prompt("Please Enter Your Name:")
+
+        document.getElementById('txt1').innerHTML = name
+
+        //Age Prompt
+        let age = prompt("Please Enter Your age:")
+
+        document.getElementById('txt2
+.innerHTML = age
+
+        //Eligibility Logic
+        if (age < 18) {
+            document.getElementById('txt3').innerHTML = "Sorry! You are not eligible for driver licence" + " " + name
+        }
+        else {
+            document.getElementById('txt3').innerHTML = "You are eligible for driver licence" + " " + name
+        }
+    </script>
+</body>
+
+length property:
+============
+	used to findout lenght of a given string
 
 
+Arrays:
+=====
+Arrays are also variables with multiple data values
+Arrays enables storing a collection of multiple items under a single variable name
+=>JavaScript arrays are resizable and can contain a mix of different data types.
+=>JavaScript arrays are zero-indexed: the first element of an array is at index 0, the second is at index 1, and so on
 
+var students=["Anil", "Chetan", "Bharat", "Deepak"]
 
+Objects:
+=======
+JavaScript objects are containers for named values, called properties and methods.
 
+An object is a collection of properties, and a property is an association between a name (or key) and a value. 
 
+A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.
 
+ex:
+	let car={
+		//property:value
+		color:'red',
+		company:'Hyundai',
+		mfg:2023
+	}
 
+	console.log(car.color)
 
 
 
