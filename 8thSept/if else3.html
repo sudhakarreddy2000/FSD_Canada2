@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+   <h2 id="txt"></h2>
+    <script>
+        let marks=prompt("Enter marks here")
+        if(marks<=40){
+            document.getElementById('txt').innerHTML="Failed"
+        }else if(marks>40 && marks<=50){
+            document.getElementById('txt').innerHTML="Passed"
+        }else if(marks>50 && marks<=60){
+            document.getElementById('txt').innerHTML="Second Class"
+        }else if(marks>60 && marks<=70){
+            document.getElementById('txt').innerHTML="First Class"
+        }else if(marks>70 && marks<=100){
+            document.getElementById('txt').innerHTML="Distinction"
+        }else{
+            alert("Invalid Entry..")
+        }
+    </script>
+</body>
+</html>
