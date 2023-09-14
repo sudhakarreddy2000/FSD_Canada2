@@ -737,8 +737,122 @@ ex:
 	console.log(car.color)
 
 
+11th Sept:
+=======
+Loops
+Loops can execute a block of code a number of times.
+Loops are handy, if you want to run the same code over and over again, each time with a different value.
+
+JavaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times
+while - loops through a block of code while a specified condition is true
+
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object
+
+do/while - also loops through a block of code while a specified condition is true
+
+for loop:
+======
+syntax:
+	for(initialise, condition, increment / decrement){
+		code....
+	}
+
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
 
 
+while loop
+
+Functions:
+=======
+A function is a block of organized, reusable code that is used to perform a single, related action. 
+Functions provide better modularity for your application and a high degree of code reusing. 
+
+Functions are 2 types
+	1) inbuilt function	
+		ex:Date() 
+	2) User definef function
+		ex: sudhakar()
+
+How to define a function:
+===================
+1)	Normal function:(since begining of js)
+
+	function Sudhakar(){
+		code...
+	}
+
+	Sudhakar()
+
+
+2)	Arrow function:(introduced in ES6(2015))
+
+	const Sudhakar=()=>{
+		code...
+	}
+
+	Sudhakar()
+
+3) 	Anonymouse function:function without any name
+	
+	const Sudhakar=function(){
+		code...
+	}
+
+
+
+Functions with Parameters and Arguments:
+===============================
+A parameter is one of the variables in a function. 
+When the function is called,the arguments are the data you pass into the function's parameters.
+
+	function Demo(uid){
+
+	}
+
+	Demo('javascript')
+	Demo('React')
+
+
+return statement:
+==============
+The return statement stops the execution of a function and returns a value.
+	function Demo(){
+		return "Hello js"
+	}
+	Demo()
+
+
+Events:
+=====
+onclick event
+onmouseover event
+onmouseout event
+onsubmit event
+onscroll event
+onchange event
+onfocus event
+onblur event
+onkeydown event
+onkeyup event
+
+14th Sept:
+=========
+task with parameters
+onsubmit validation
+length
+number validation
+	isNaN() ==>is not a number?
+
+onfocus event
+onblur event
 
 
 
