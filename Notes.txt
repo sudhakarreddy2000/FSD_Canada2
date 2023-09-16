@@ -854,9 +854,79 @@ number validation
 onfocus event
 onblur event
 
+15th Sept;
+=========
+onchange event
+	=>select , option
+
+onchange color
+
+for in 
+and 
+for of:
+================
+    //for in for objects where as for of for arrays
+    const obj={
+        name:'Anil',
+        place:'Hyderabad',
+        age:22
+    }
+
+    for(x in obj){
+        //console.log(x)
+        //document.write(x)
+        //console.log(`key is :${x} and value is ${obj[x]}`)
+        document.write(`key is :${x} and value is ${obj[x]}`)
+    }
+
+------------
+for of:
+
+    const arr=['a','b','c','d']
+
+    for(x of arr){
+        console.log(x)
+        document.write(x+"<br>")
+    }
+
+--------------------
+const fruits = ["apple", "orange", "cherry"];
+fruits.forEach(test)
+function test(item){
+document.write("<li>"+item+"</li>")
+}
+-----------------
+BMI EXAMPLE
+
+    var w=prompt("weight")
+    var h=prompt('height in meters(100cms=1m)')
+    h=h*h
+    bmi=w/h
+    alert(bmi)
+---------------------------------
 
 
 
 
 
 
+
+
+Math.round(6.4); =>Returns the value of the number x rounded to the nearest integer.
+	ex:6
+Math.pow(2,4)=>Returns base x to the exponent power y (that is, xy).
+Math.floor(6.4) => down to nearest
+	ex:6
+Math.ceil(6.4)  => upto nearest
+	ex:7
+Math.random() =>Returns a pseudo-random number between 0 and 1.
+Math.max() =>Returns the largest of zero or more numbers.
+Math.min() =>Returns the smallest of zero or more numbers.
+Math.trunc(6.7)=> returns the integer part of x:
+	ex:6
+Math.sign(-6)=> Returns the sign of the x, indicating whether x is positive, negative, or zero.
+	ex:-1
+Math.sqrt(100) =>Returns the positive square root of x.
+	ex: 10
+Math.abs(x)=>returns the absolute (positive) value of x:
+	ex:-6.7 => 6.7
