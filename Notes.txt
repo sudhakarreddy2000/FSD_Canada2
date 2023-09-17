@@ -890,12 +890,7 @@ for of:
     }
 
 --------------------
-const fruits = ["apple", "orange", "cherry"];
-fruits.forEach(test)
-function test(item){
-document.write("<li>"+item+"</li>")
-}
------------------
+
 BMI EXAMPLE
 
     var w=prompt("weight")
@@ -905,7 +900,51 @@ BMI EXAMPLE
     alert(bmi)
 ---------------------------------
 
+17th Sept:
+============
 
+forEach():
+=======
+The forEach() method calls a function for each element in an array.
+
+The forEach() method is not executed for empty elements.
+
+const fruits = ["apple", "orange", "cherry"];
+fruits.forEach(test)
+
+function test(item){
+document.write("<li>"+item+"</li>")
+}
+-----------------
+
+Nested for loops:
+============
+What is a nested for loop in JavaScript?
+We use the for loop statement of JavaScript for repeating a set of statements inside the loop body a specified number of times. A nested for loop, as the name suggests, is made up of more than one for loop one nested inside of the other. This allows us to loop over multidimensional data structures such as matrices.
+
+How does a nested for loop work in JavaScript?
+The most common type of nested loops will be one loop inside another. 
+The first loop is usually called the outer loop while the second loop is called the inner loop. 
+The outer loop always executes first, and the inner loop executes inside the outer loop each time the outer loop executes once.
+
+
+for(){		==>outer for loop
+	for(){	==>inner for loop
+
+	}
+}
+
+-------------------------------
+onkeydown and onkeyup event
+onscroll event
+onload event
+
+setTimeout()
+
+setInterval()
+
+call back function=>a function calls another function
+------------------------------------------
 
 
 
@@ -930,3 +969,6 @@ Math.sqrt(100) =>Returns the positive square root of x.
 	ex: 10
 Math.abs(x)=>returns the absolute (positive) value of x:
 	ex:-6.7 => 6.7
+
+--------------------------------------------------
+
