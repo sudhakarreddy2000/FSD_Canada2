@@ -947,8 +947,10 @@ call back function=>a function calls another function
 ------------------------------------------
 
 
-
-
+21st sept:
+==========
+Math:
+======
 
 
 Math.round(6.4); =>Returns the value of the number x rounded to the nearest integer.
@@ -971,4 +973,60 @@ Math.abs(x)=>returns the absolute (positive) value of x:
 	ex:-6.7 => 6.7
 
 --------------------------------------------------
+Regular Expressions:
+=================
 
+Regular expressions are patterns used to match character combinations in strings. 
+In JavaScript, regular expressions are also objects. 
+
+   var str="javaScript";
+   var pat=/[A-Z]/g;
+   var res=str.match(pat);
+   document.write(res);
+
+[A-Z]
+[a-z]
+[0-9]
+[^A-Z]  =>not A-Z
+[^a-z]
+[^0-9]
+
+{3}==>3 letters
+{3,6} ==>3-6
+
+Search:
+======
+str.search("web");
+
+Replace:
+=======
+str.replace("html","javascript");
+
+Destructuring:
+=============
+What is the Destructuring in JavaScript?
+Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
+
+        // let user=['Anil','Hyderabad',22]
+            // //let name=user[0]=>old method
+        // let [name,place,age]=user
+        // console.log(name)
+        // console.log(place)
+        // console.log(age)
+
+
+Exception handling:
+===================
+What is exception handling in JavaScript?
+Exception Handling Statements. An exception is an abnormal or unexpected condition that occurs during the runtime, and javascript provides various statements or a combination of statements to handle the exceptions. It handles exceptions in try-catch-finally statements and throws statements.
+
+
+try and catch:
+
+try{
+var a= ["34","32","5","31","24","44","67"]; 
+document.write(a);    
+document.write(b);  
+}catch(e){
+alert("There is error which shows "+e.message); //Handling error
+}
