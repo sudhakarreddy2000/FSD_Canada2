@@ -1030,3 +1030,46 @@ document.write(b);
 }catch(e){
 alert("There is error which shows "+e.message); //Handling error
 }
+
+22nd Sept:
+==========
+const num1=Math.ceil(Math.random()*10)
+console.log(num1)
+
+const num1=Math.ceil(Math.random()*10)
+const num2=Math.ceil(Math.random()*10)
+const total=num1*num2
+console.log(num1+" "+num2+"= "+total)
+----------------------------------------------
+  var x = document.getElementById("myInput");
+  if (x.type == "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+--------------------------------------------------
+getElementById
+getElementByTagName
+getElementByClassName
+
+querySelector()  ==.it is alternativ to above 3 methods
+=>document.querySelector("#box")
+---------------------------------------------------
+addEventListerner():
+
+What is a addEventListener in JavaScript?
+The addEventListener() is an inbuilt function in JavaScript which takes the event to listen for, and a second argument to be called whenever the described event gets fired. Any number of event handlers can be added to a single element without overwriting existing event handlers.
+
+document.addEventListener("click", function(){
+//alert("hello");
+document.body.style.background="yellow";
+});
+
+----------------------------------------
+localStorage:
+
+localStorage.setItem("name","Sudhakar")
+localStorage.setItem("email","ss@gmail.com")
+document.write(localStorage.getItem('name'));
+//localStorage.removeItem('email')
+//localStorage.clear()
