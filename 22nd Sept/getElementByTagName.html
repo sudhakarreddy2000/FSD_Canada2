@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>getElementById()</h1>
+<h1>js</h1>
+<h1>react</h1>
+<h1>angular</h1>
+<button onclick="test()">clickme</button>
+<h3 id="txt"></h3>
+<script>
+const test=()=>{
+    var val=document.getElementsByTagName('h1')
+    document.getElementById('txt').innerHTML=val[1]
+    console.log(val[1])
+}
+</script>
+
+</body>
+</html>

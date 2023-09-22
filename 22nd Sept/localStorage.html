@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+
+<button onclick="test()">remove local storage</button>
+<script>
+localStorage.setItem("name","Sudhakar")
+document.write(localStorage.getItem('name'));
+
+function test(){
+localStorage.removeItem('name')
+}
+</script>
+
+</body>
+</html>
