@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>createElement example</h1>
+    <button onclick="demo()">Creaete Element and append data</button>
+    <script>
+        function demo(){
+        let x=document.createElement('h3')
+        x.innerText=prompt("Enter text here")
+        document.body.append(x)
+        }
+    </script>
+
+</body>
+</html>
