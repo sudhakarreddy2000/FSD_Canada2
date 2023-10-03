@@ -1118,4 +1118,33 @@ in Template literals we use ' Back Tick (`) '
 	var x="javascript"
 	document.write(` Hello ${x}`)
 
+3rd Oct
+==========
+NotePadApplication
+	=>html file
+	=>css file
+	=>js file =>.js
 
+#main
+.note ==>white
+.tool =>black
+    icons
+textarearea
+
+
+font awesome
+	link=>in google search for=>cdn font awesome
+
+
+
+
+
+
+=>not done
+Promise
+
+async
+await
+
+fetch() method
+preventDefault
