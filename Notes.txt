@@ -1135,8 +1135,9 @@ textarearea
 font awesome
 	link=>in google search for=>cdn font awesome
 
-
-
+5th Oct:
+======
+javascript functionality for notepad app
 
 
 
