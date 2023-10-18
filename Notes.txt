@@ -1141,6 +1141,101 @@ javascript functionality for notepad app
 
 
 
+9th Oct:
+=========
+REACT
+	installation
+
+npm init react-app my-app
+
+
+17th oct:
+=======
+React is javascript library
+developed and managed by facebook
+React is useful for making 'user Interface(UI)' very effective and fast
+react is usef for "Single Page Application(SPA)"
+
+When should I use React?
+If you're working on a frontend UI that demands high user interaction, you'll want to use React. It's a pain to code every one of those interactive elements and binds time together to the underlying business logic.
+
+Why React should be used:
+
+Write once, learn anywhere: We can develop new features in React without re-writing the existing code. It can also render on the server using Node and power mobile apps using React Native. So we can create IOS, Android, and Web applications simultaneously. In conclusion, extensive code reusability is supported by React.
+
+It is simple: The component-based approach, automatic rendering, and use of just plain JavaScript make React very simple to learn, build a web (and mobile applications), and support it. We can mix Javascript and HTML together to create a special syntax called JSX which makes it easier to grasp and work with it.
+
+SEO friendly: SEO is about making it easier for developers to find the right content for the user. When a user makes a search, search engines platforms like Google, Yahoo, Bing or Baidu try to find which page is the most relevant to that specific search. React affects the SEO by giving you a SPA (Single Page Application) which requires Javascript to show the content on the page which can then be rendered and indexed.
+
+Fast, efficient, and easy to learn: It contains pre-built patterns and functions that can be chosen and combined like building blocks to create fast, appealing, and scalable projects in less time as compared to designing the entire application line by line. Also, unlike Angular and Ember which are referred to as ‘Domain-specific Language’, React only requires to need a basic knowledge of HTML and CSS fundamentals to start working with it.
+
+Guarantees stable code: ReactJS solely use downward data flow to ensure that even minor changes in the child structures won’t have an impact on their parents. Developers only alter an object’s state when they change it; only specific components will then be updated. The stability of the code and consistent app performance are guaranteed by this data-binding mechanism.
+
+It is backed by a strong community: React library was initially developed for internal use before being made available to everyone. The engineering teams from Facebook and Instagram as well as outside experts now support it. 
+
+Understanding folder structure:
+======================
+	project folder (my-app)
+		node_moduels folder
+		public folder
+		      index.html	=>important
+		src folder
+		      App.css
+		      App.js
+	                        App.test.js
+		      Index.css
+		      index.js
+
+
+18th Oct:
+=======
+=>we write everything from beginining
+=>delete all files from 'src' folder
+=>create 'index.js' file in src folder
+=>write some code in index.js file
+
+
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+<h1> Hello name</h1>
+);
+
+jsx:
+Javascript xml 
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+It is a JavaScript extension that allows us to describe React's object tree using a syntax that resembles that of an HTML template.
+
+i can say jsx is combination of html and javascript
+	
+multiple jsx elements should be wrapped in either div tag or fragment (< > </ >)
+1)method one of wrapping: using div tag
+    <div>
+    <h1>Hello React</h1>
+    <h2>jsx stands for javascript xml</h2>
+    </div>
+
+2)method two of wrapping: using fragment
+    < >
+    <h1>Hello React</h1>
+    <h2>jsx stands for javascript xml</h2>
+    </ >
+
+Variables , objects, arrays using React:
+===========================
+Variables , objects, arrays etc can be embeded into react by using Expression =>{ }
+
+let uid="React Apppication"
+
+Hello {uid}
+
+
+
+
+
+
 =>not done
 Promise
 
