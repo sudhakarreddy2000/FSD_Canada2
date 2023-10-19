@@ -1231,6 +1231,73 @@ let uid="React Apppication"
 
 Hello {uid}
 
+19th oct:
+=======
+if else condition
+Date() function
+date methods:
+
+	getHours()
+	getMinutes()
+	getSeconds()
+
+	getDate()
+	getMonth()
+	getFullYear()
+
+	getDay()
+
+	toLocaleTimeString()
+	toLocaleDateString()
+
+
+INSERTING IMAGES:
+==================
+	<img src="file.jpg"/>
+	<hr/>
+	<input type="text"/>
+1)inserting image from src folder:
+	=>import xyz from 'flower.jpg'
+	=>including in jsx
+		<img src={xyz} />
+
+2)inserting image from public folder
+	<img src="logo.png" />
+
+
+using css in react:
+============
+	1) inline css
+		<h1 style="color:red;"> hello </h1>=>way of writing in html
+		
+	in react =>need to create object and call it
+		const clr={
+			color:'red'
+			}
+		<h1 style={clor}> </h1>
+
+	2) external css
+		=>one html file
+		=>one .css file
+		=><link href="style.css" rel="stylesheet"> =>html way
+		=>in react =>import style.css 
+		import './style.css'
+	=>calling class in html
+		<h1 class="xyz"> </h1>
+	=>whereas in react
+		<h1 className="xyz"> </h1>
+	3) internal css==>not discussed
+		
+
+
+
+
+
+
+
+
+
+
 
 
 
