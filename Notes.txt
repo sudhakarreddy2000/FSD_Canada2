@@ -1286,16 +1286,57 @@ using css in react:
 		<h1 class="xyz"> </h1>
 	=>whereas in react
 		<h1 className="xyz"> </h1>
-	3) internal css==>not discussed
+	3) internal css==>
+
+
+30th Oct:
+======
+exporting and importing data values:
+==========================
+export default x
+=>Only one default export allowed per module. 
+	export default fname
+=>for other data we need to export
+	export {lname, place}
+
+Components:
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.		
+
+A component is an independent, reusable bit of code which divides the UI into smaller pieces. For example, if we were building the UI of React website using Reactjs we can break its UI into smaller parts .
+
+Instead of building the whole UI under one single file like HTML, we can divide all the sections (marked with red) into smaller independent pieces. In other words, these are components. Each component will go into its own JavaScript file. 
+
+	in 2 ways we can create components
+		1) function component
+		2) class component
+
+Function component:
+===============
+What are Functional Components? 
+The first, most important and recommended component type in React is a functional component. A functional component is basically a JavaScript function that returns a React element (JSX).  
+
+Functional components start with function keyword. 
+
+Code:
+
+function HelloWorld() { 
+  return <h1>Hello world</h1>; 
+}
+
+or
+
+const HelloWorld=()=>{
+	  return <h1>Hello world</h1>; 
+}
+
+
+component has to be exported...
+
+	export default HelloWorld
+
+=>File name of a component should start with upper case
+	ex:HelloWorld
 		
-
-
-
-
-
-
-
-
 
 
 
