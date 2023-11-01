@@ -1338,9 +1338,86 @@ component has to be exported...
 	ex:HelloWorld
 		
 
+1st nov:
+=======
+Props:
+props stands for properties
+props are like parameters and arguments
+props used to send the data from one component to another
+
+The word “props” implies “properties”, and its working functionality is quite similar to HTML attributes. 
+	example of httml attribute	
+	=> <h1 align="center"> </h1>
+Basically, these props components are read-only components. In ReactJS, the data can be passed from one component to another component using these props, similar to how the arguments are passed in a function.
+
+example of js parameters and arguments
+	function test(fname){
+		console.log('hello' +fname)
+	}
+
+	test('Peter')
+	test('Anil')
+	test('JOhn')
 
 
+props in react
+	function App(props){
+		return(
+		<h1> hello {props.fname}</h1>
+		)
+	}
 
+Events:
+=====
+js		react
+onclick event===>onClick event
+onmouseover event==>onMouseOver event
+onmouseout event ==>onMouseOut event
+onchange ==>onChange event
+
+in js => <button onclick='demo()'>click me</button>
+in react => <button onClick={demo}>click me</button>
+
+
+Class Components:
+===================
+class class_name extends React.Component{
+	render(){
+		return(
+		<h1> </h1>
+		)
+	}	
+}
+
+
+Hooks:
+=====
+What are the Hooks in React?
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. 
+Hooks allow function components to have access to state and other React features.
+Hooks don't work inside class component
+
+How many React Hooks are there?
+You do not need to write an extra line of code in React. Hooks help write less coding functionality in React. React version 18 provides 15 hooks for developers. With 15 hooks, you achieve similar functionality to a class-based component
+
+state:
+====
+The state is a built-in React object that is used to contain data or information about the component. 
+A component's state can change over time; whenever it changes, the component re-renders.
+State generally refers to data or properties that need to be tracking in an application.
+
+useState() hook:
+===========
+What is useState in Reactjs?
+useState is React Hook that allows you to add state to a functional component. 
+It returns an array with two values: the current state and a function to update it. 
+The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+
+	const [state, setState] =useState("sudhakar")
+How to use useState() hook:
+
+To use the useState Hook, we first need to import it into our component.
+	import { useState } from "react";
 
 
 
