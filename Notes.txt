@@ -1420,6 +1420,80 @@ To use the useState Hook, we first need to import it into our component.
 	import { useState } from "react";
 
 
+2nd Nov:
+=======
+update state 
+update state with if else
+update state =>numbers=>increment/decrement
+
+
+
+
+
+
+
+
+
+
+
+useState hook with array:
+What is useState in Reactjs?
+useState is React Hook that allows you to add state to a functional component. 
+It returns an array with two values:
+	 the current state and 
+	a function to update it. 
+
+The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+	const [state, setState]=useState('hello')
+
+	const [state, setState]=useState(['a','b','c'])
+
+function test(){
+		setState(['d','e','f'])
+	}
+
+useState hook with object:
+const [data,setData]=useState({fname:"Ravi", lname:"Kumar"})
+
+Spread operator:
+=============
+The JavaScript spread operator ( ... ) allows us to quickly copy all or part of an existing array or object into another array or object.
+	const numbersOne = [1, 2, 3];
+	const numbersTwo = [4, 5, 6];
+	const numbersCombined = [...numbersOne, ...numbersTwo];
+
+
+useState hook with object, spread operator
+
+function demo(){
+    // setData({fname:'Ramesh'})  ==>this update only fname and lname dissapears so spread operator
+    // spread operator will keep previous data, only updates required data
+    setData({...data, fname:"Ramesh"})
+  }
+
+map:
+map() creates a new array from calling a function for every array element. map() does not execute the function for empty elements.
+
+let num=[10,20,30,40,50]
+const [state,setState]=useState(num)
+<ul>
+  {
+    state.map((n)=><li>{n}</li>)
+  }
+</ul>
+
+10,20,30,40
+
+10
+40
+60
+80
+
+
+
+
+
+
 
 =>not done
 Promise
