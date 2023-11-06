@@ -1426,17 +1426,8 @@ update state
 update state with if else
 update state =>numbers=>increment/decrement
 
-
-
-
-
-
-
-
-
-
-
-useState hook with array:
+6th Nov:
+=======
 What is useState in Reactjs?
 useState is React Hook that allows you to add state to a functional component. 
 It returns an array with two values:
@@ -1444,6 +1435,10 @@ It returns an array with two values:
 	a function to update it. 
 
 The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+
+
+useState hook with array:
+
 	const [state, setState]=useState('hello')
 
 	const [state, setState]=useState(['a','b','c'])
@@ -1466,7 +1461,7 @@ The JavaScript spread operator ( ... ) allows us to quickly copy all or part of 
 useState hook with object, spread operator
 
 function demo(){
-    // setData({fname:'Ramesh'})  ==>this update only fname and lname dissapears so spread operator
+    // setData({fname:'Ramesh'})  ==>this update only fname and lname dissapears so we should use spread operator
     // spread operator will keep previous data, only updates required data
     setData({...data, fname:"Ramesh"})
   }
@@ -1482,6 +1477,14 @@ const [state,setState]=useState(num)
   }
 </ul>
 
+
+
+<select>
+<option> 10</option>
+<option> 20</option>
+<option> 30</option>
+<option> 40</option>
+</select>
 10,20,30,40
 
 10
