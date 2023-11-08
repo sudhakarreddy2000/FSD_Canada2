@@ -1479,6 +1479,7 @@ const [state,setState]=useState(num)
 
 
 
+
 <select>
 <option> 10</option>
 <option> 20</option>
@@ -1492,6 +1493,22 @@ const [state,setState]=useState(num)
 60
 80
 
+8th Nov:
+Bootstrap using react:
+===================
+bootstrap has to be installed 
+	npm i bootstrap
+node_modules/bootstrap/dist/css/bootstrap.css
+
+What is JSON used for?
+JSON is a file format that uses human-readable language to store and communicate data objects. JSON (JavaScript Object Notation) is defined as a file format used in object-oriented programming that uses human-readable language, text, and syntax to store and communicate data objects between applications.
+
+	[
+	{
+	"id":1,
+	"name":"Ravi"
+	}
+	]
 
 
 
