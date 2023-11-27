@@ -1581,18 +1581,71 @@ API stands for Application Programming Interface. In the context of APIs, the wo
 
  An API acts as a communication medium between two programs or systems for functioning. The client is the user/customer (who sends the request), the medium is the API, and the server is the backend (where the request is accepted and a response is provided).
 
-useEffect() code not executed....only theory done
+
+
+
+11th Nov;
+========
+promise object:
+=============
+
+In JavaScript, a Promise is an object that will produce a single value some time in the future. 
+If the promise is successful, it will produce a resolved value, but if something goes wrong then it will produce a reason why the promise failed. 
+The possible outcomes here are similar to that of promises in real life.
+A JavaScript Promise object can be:
+
+Pending
+Fulfilled
+Rejected
+
+fetch() method:
+============
+The fetch() method starts the process of fetching a resource from a server. The fetch() method returns a Promise that resolves to a Response object.
+
+	fetch().then()
+jsonplaceholder
+
+with list 
+with table discussed
+
+27th Nov:
+=======
+
+Not discussed....
+https://randomuser.me/  =>for API
+
+	function test(){
+		axios.get("https://randomuser.me/api/?results=50").then((res)=>{
+			console.log(res)
+			console.log(res.data.results)
+		})
+	}
 
 
 
 
 
+Routing:
+=======
+routing or rooting
+In a single-page React Application(SPA), routing refers to the process of navigating between different pages without triggering a full page reload. The application initially loads a single HTML page.
 
-=>not done
-Promise
+npm i react-router-dom
+
+react-router-dom contains some components
+	BrowserRouter   ===>parent component 
+	Routes
+	Route
+	Link
+
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+
+
+
+
 
 async
 await
 
-fetch() method
+
 preventDefault
