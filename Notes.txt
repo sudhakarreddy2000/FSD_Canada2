@@ -1640,9 +1640,39 @@ react-router-dom contains some components
 
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
+28th Nov:
+=======
+components in routers
+Link 
+	<a href="file.html"> link </a>
+
+	<Link to='/about'> about </a>
 
 
+axios:
+=====
+What is Axios used for?
+Making HTTP requests with Axios | CircleCI
+Axios is a promise-based HTTP library that lets developers make requests to either their own or a third-party server to fetch data.
 
+axios and fetch are both JavaScript libraries that are used for making HTTP requests and fetching data from a server. However, there are a few key differences between them. API Design: axios is built on top of the XMLHttpRequest object, while fetch is a web API built into modern browsers.
+
+Axios vs fetch:
+===========
+If you need additional features such as interceptors or request cancellation, Axios may be a better choice despite its larger size. However, if you need a lightweight library and don't need these additional features, Fetch may be a better choice.
+	npm i axios
+
+fetch('https://randomuser.me/api/?results=50')
+		.then((result)=>result.json())
+		//.then((val)=>console.log(val))
+		.then((val)=>setState(val.results))
+
+
+axios.get("https://randomuser.me/api/?results=5")
+		.then((res)=>{
+			console.log(res)
+			setState(res.data.results)
+		})
 
 async
 await
