@@ -1674,6 +1674,27 @@ axios.get("https://randomuser.me/api/?results=5")
 			setState(res.data.results)
 		})
 
+12th Dec
+Controlled components:
+----------------------------------
+In a controlled component, the state is maintained by the React component itself. 
+This state is updated via events, usually tied to input fields in a form. 
+This means that the value of the input field is always controlled by the state of the React component.
+
+onChange Event:
+
+
+---------------------
+
+
+
+API Weather
+API News
+
+
+
+prop drilling
+useContext 
 async
 await
 
