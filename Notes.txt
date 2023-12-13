@@ -1686,9 +1686,21 @@ onChange Event:
 
 ---------------------
 
-
-
 API Weather
+https://openweathermap.org/api
+
+Current & Forecast weather data collection=>current weather data=>api doc
+=>under api doc=>look for =>Built-in API request by city name
+
+api key=>4a104e91faf5c441f4589c6e06f17d9f
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+
+-----------------------------------------------------------------------------
+
+
 API News
 
 
