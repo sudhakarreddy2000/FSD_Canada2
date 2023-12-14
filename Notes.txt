@@ -1700,15 +1700,50 @@ https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 -----------------------------------------------------------------------------
 
-
+14th Dec:
+==========
 API News
 
+newsAPi
+de549631f71842a487f9623c01b9db10
+https://newsapi.org/v2/everything?q=keyword&apiKey=de549631f71842a487f9623c01b9db10
+https://newsapi.org/v2/top-headlines?country=us&apiKey=de549631f71842a487f9623c01b9db10
+
+prop drilling:
+==========
+Prop drilling occurs when a parent component generates its state and passes it down as props to its children components that do not consume the props – instead, they only pass it down to another component that finally consumes it.
 
 
-prop drilling
+props stands for properties
+props are like parameters and arguments
+props used to send the data from one component to another
+
+The word “props” implies “properties”, and its working functionality is quite similar to HTML attributes. 
+	example of httml attribute	
+	=> <h1 align="center"> </h1>
+Basically, these props components are read-only components. 
+In ReactJS, the data can be passed from one component to another component using these props, similar to how the arguments are passed in a function.
+
+
+==========================================
+
+Note done
+FoodApi=>Edamam
+
+Application ID
+138b2f46
+
+Application Keys
+ad4f8e086baca4186b08f82401ad5bd8	
+
+
+"https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free"
+
+https://api.edamam.com/search?q=chicken&app_id=138b2f46&app_key=ad4f8e086baca4186b08f82401ad5bd8&from=0&to=3&calories=591-722&health=alcohol-free
+
+
+
 useContext 
 async
 await
 
-
-preventDefault
